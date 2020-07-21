@@ -1,5 +1,5 @@
 import random
-randlist1 = [10]
+randlist1 = []
 for e in range (10):
   r = random.randint(1,6)
   randlist1.append(r)
@@ -9,13 +9,34 @@ for e in randlist1:
  #1 = 
  #2 = 
  #3 = 
- #4 = 10%
+ #4 = 
  #5 = 
  #6 = 
 
-randlist2 = [10]
-for g in range (1,6):
-  d = random.randint(1,100)
-  randlist2.append(d)
- for g in randlist2:
-   print(randlist2[g]) 
+randlist2 = []
+for c in range (100):
+  b = random.randint(1,6)
+  randlist2.append(b)
+for c in randlist2:
+  print(randlist2[c])
+ # of iterations: 100
+ #1 = 
+ #2 = 
+ #3 = 
+ #4 = 
+ #5 = 
+ #6 = 
+
+randlist3 = []
+for p in range (10):
+  d = random.randint(1,6)
+  randlist3.append(d)
+for p in randlist3:
+  print(randlist3[p])
+ # of iterations: 100,000
+ #1 = 
+ #2 = 
+ #3 = 
+ #4 = 
+ #5 = 
+ #6 = 
